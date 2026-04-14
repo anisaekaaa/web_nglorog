@@ -1,8 +1,12 @@
 {
     "version": 2,
-    "framework": null,
-    "functions": { "api/index.php": { "runtime": "vercel-php@0.6.0" } },
-    "routes": [{ "src": "/(.*)", "dest": "/api/index.php" }],
-    "installCommand": "composer install",
-    "buildCommand": "echo 'No build step required'"
+    "functions": {
+        "api/index.php": { "runtime": "vercel-php@0.6.0" }
+    },
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/api/index.php"
+        }
+    ]
 }
